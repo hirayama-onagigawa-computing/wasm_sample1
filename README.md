@@ -1,8 +1,14 @@
-# wasm_test
+# wasm_sample1
 
 ## Project setup
 ```
 yarn install
+```
+
+## Build WASM
+```
+cd wasm
+wasm-pack build
 ```
 
 ### Compiles and hot-reloads for development
