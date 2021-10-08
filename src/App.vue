@@ -208,8 +208,6 @@ export default {
             const w = Math.min(img.naturalWidth, MAX_IMAGE_SIZE);
             const h = img.naturalHeight * (w / img.naturalWidth);
 
-            //this.width = this.original_width = img.naturalWidth;
-            //this.height = this.original_height = img.naturalHeight;
             this.width = this.original_width = w;
             this.height = this.original_height = h
 
